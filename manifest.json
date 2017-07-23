@@ -2,33 +2,33 @@
   "name": "FeiraUP",
   "short_name": "FeiraUP",
   "icons": [{
-    "src": "assets/icon/icon-075x.png",
+    "src": "http://m.feiraup.com/assets/icon/icon-075x.png",
     "sizes": "512x512",
     "type": "image/png"
   },{
-    "src": "assets/icon/icon-1x.png",
+    "src": "http://m.feiraup.com/assets/icon/icon-1x.png",
     "sizes": "48x48",
     "type": "image/png"
   },{
-    "src": "assets/icon/icon-1-5x.png",
+    "src": "http://m.feiraup.com/assets/icon/icon-1-5x.png",
     "sizes": "72x72",
     "type": "image/png"
   },{
-    "src": "assets/icon/icon-2x.png",
+    "src": "http://m.feiraup.com/assets/icon/icon-2x.png",
     "sizes": "96x96",
     "type": "image/png"
   },{
-    "src": "assets/icon/icon-3x.png",
+    "src": "http://m.feiraup.com/assets/icon/icon-3x.png",
     "sizes": "144x144",
     "type": "image/png"
   },{
-    "src": "assets/icon/icon-4x.png",
+    "src": "http://m.feiraup.com/assets/icon/icon-4x.png",
     "sizes": "192x192",
     "type": "image/png"
   }],
   "background_color": "#F27F2E",
   "theme_color": "#F27F2E",
-  "start_url": "index.html",
+  "start_url": "/",
   "display": "standalone",
   "orientation": "portrait"
 }
