@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <script data-ionic="inject">
-    (function(w){var i=w.Ionic=w.Ionic||{};i.version='2.0.0-rc.1';i.angular='2.0.0';i.ionicNative='2.2.3';i.staticDir='build/';})(window);
+    (function (w) { var i = w.Ionic = w.Ionic || {}; i.version = '2.0.0-rc.1'; i.angular = '2.0.0'; i.ionicNative = '2.2.3'; i.staticDir = 'build/'; })(window);
   </script>
   <meta charset="UTF-8">
   <title>FEIRAUP</title>
@@ -20,7 +21,7 @@
   <meta name="apple-mobile-web-app-title" content="FeiraUP lite">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="theme-color" content="#F27F2E">
-  
+
   <!-- cordova.js required for cordova apps -->
   <script src="cordova.js"></script>
 
@@ -28,14 +29,16 @@
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('service-worker.js')
-        .then(() => console.log('service worker installed'))
-        .catch(err => console.log('Error', err));
+        .then(function () { console.log('service worker installed') })
+        .catch(function (err) { console.log('Error', err) });
     }
-  </script><!-- -->
+  </script>
+  <!-- -->
 
   <link href="build/main.css" rel="stylesheet">
 
 </head>
+
 <body>
 
   <!-- Ionic's root component and where the app will load -->
@@ -48,4 +51,5 @@
   <script src="build/main.js"></script>
 
 </body>
+
 </html>
